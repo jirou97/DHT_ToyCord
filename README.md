@@ -17,7 +17,7 @@ consistency_strategy can be linear or eventual
 master is at 192.168.1.1:30001
 
 ## Add node to the DHT
-start_servers.sh new_node_port
+start_servers.sh new_node_ip new_node_port
 
 This requires the node to be on the same network.
 
