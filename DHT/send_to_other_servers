@@ -1,0 +1,13 @@
+cd /home/user/DHT
+scp server.py user@node1:/home/user/DHT
+scp neighbors.py user@node1:/home/user/DHT
+scp client.py user@node1:/home/user/DHT
+scp server.py user@node2:/home/user/DHT
+scp neighbors.py user@node2:/home/user/DHT
+scp client.py user@node2:/home/user/DHT
+scp server.py user@node3:/home/user/DHT
+scp neighbors.py user@node3:/home/user/DHT
+scp client.py user@node3:/home/user/DHT
+scp server.py user@node4:/home/user/DHT
+scp neighbors.py user@node4:/home/user/DHT
+scp client.py user@node4:/home/user/DHT
