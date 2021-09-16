@@ -25,4 +25,4 @@ To change that the master node needs to have a public ip and on server.py you ha
 
 You might have to change the get_ip() function on the server.py file, to get the public ip over the private.
 
-## To see the available commands type: help
+### To see the available commands type: help
