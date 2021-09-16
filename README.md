@@ -24,3 +24,5 @@ This requires the node to be on the same network.
 To change that the master node needs to have a public ip and on server.py you have to replace "192.168.1.1:30001" with the masters ip
 
 You might have to change the get_ip() function on the server.py file, to get the public ip over the private.
+
+## To see the available commands type: help
