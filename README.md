@@ -11,10 +11,14 @@ Project created by me and [Panagiotis](https://github.com/souliotispanagiotis)
 #  How to use
 ## Setup the master node
 python main.py {replication_size} {consistency_strategy}
+
 consistency_strategy can be linear or eventual
+
 master is at 192.168.1.1:30001
 
 ## Add node to the DHT
 start_servers.sh new_node_port
+
 This requires the node to be on the same network.
+
 To change that the master node needs to have a public ip and on server.py you have to replace "192.168.1.1:30001" with the masters ip
